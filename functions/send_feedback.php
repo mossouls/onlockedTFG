@@ -15,10 +15,12 @@ function send_feedback ($email_contacto,$nombre_contacto,$mensaje_contacto) {
 //creada mediante Google Cloud y autenticada mediante Oauth.
 //En la documentación se detalla el proceso de obtención de
 //las credenciales.
-  $clientID = '1066607500968-o0mra2jvjha0g7alhjid7trdhrlfe1ke.apps.googleusercontent.com';
-  $clientSecret = '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';
-  $refreshToken = '1//03dnK8ie6NdymCgYIARAAGAMSNwF-L9IrfAtoUJpcOL6Hul5HyyNeilLdSGYonhJ0KdsfnxtAHkD256S7-rAFjf5rooNG-Vzf52w';
-  $email = 'onlockedorg@gmail.com';
+    
+  //NOTA: credenciales modificadas por seguridad. De querer emplearse el código, obtén las tuyas mediante GMail API y get_oauth_token.php
+  $clientID = '10666075009xxxxxxxxxxxxxxxxxxxxxxxxxlfe1ke.apps.googleusercontent.com';
+  $clientSecret = 'GOCSPX-CaFxxxxxxxxxxxxxxx4tPq9tIlsoVM';
+  $refreshToken = '1//03dnK8ie6NdyxxxxxxxxxxxxxxxxxxxHkD256S7-rAFjf5rooNG-Vzf52w';
+  $email = 'onlockedor123g@gmail.com';
 
 $mail=new PHPMailer(true);
 
