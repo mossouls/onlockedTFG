@@ -1,0 +1,29 @@
+<?
+    session_start();
+?>
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Message Sent</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../../assets/css/main.css" />
+</head>
+<body>
+    <div class="container">
+        <header class="style1">
+            <h2 style="margin-bottom: 1em;">Success!</h2>
+                <h2 style="margin-bottom: 1em;">Your message was sent successfully!</h2>
+                <button><a href="../logged/index_logged.php">Go back</a></button> 
+        </header>
+    </div>
+    <!-- Scripts -->
+    <script src = "assets/js/jquery.min.js">            </script>
+    <script src = "assets/js/jquery.dropotron.min.js">  </script>
+    <script src = "assets/js/browser.min.js">           </script>
+    <script src = "assets/js/breakpoints.min.js">       </script>
+    <script src = "assets/js/util.js">                  </script>
+    <script src = "assets/js/main.js">                  </script>
+
+	</body>
+</html>
