@@ -9,10 +9,12 @@ use League\OAuth2\Client\Provider\Google;
 function sendMail($usmail,$usname,$codigo_activacion)
 {
   // Añadimos el token de refresco y las credenciales de Gmail API
-  $clientID = '1066607500968-o0mra2jvjha0g7alhjid7trdhrlfe1ke.apps.googleusercontent.com';
-  $clientSecret = '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';
-  $refreshToken = '1//03dnK8ie6NdymCgYIARAAGAMSNwF-L9IrfAtoUJpcOL6Hul5HyyNeilLdSGYonhJ0KdsfnxtAHkD256S7-rAFjf5rooNG-Vzf52w';
-  $email = 'onlockedorg@gmail.com';
+  // Por motivos de seguridad, no voy a mostrar las claves obtenidas de GMail API.
+  // Tampoco se introduce el correo real. Si lo empleas, tienes que modificarlo
+  $clientID = '10666xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxeusercontent.com'; 
+  $clientSecret = 'GOCSPxxxxxxxxxxxxxxxxxxxxxxxxlsoVM';
+  $refreshToken = '1//03dnK8ie6NxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxG-Vzf52w';
+  $email = 'onlockedor123g@gmail.com';
 
   $mail = new PHPMailer(true);
 
